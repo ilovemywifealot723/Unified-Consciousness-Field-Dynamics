@@ -1,7 +1,8 @@
 # Unified Consciousness Field Dynamics (UCFD)
 
 **Author:** Elysha Branson  
-**Affiliation:** Independent Researcher  
+**Affiliation:** Independent Researcher 
+
 **License:** CC BY 4.0
 
 ---
