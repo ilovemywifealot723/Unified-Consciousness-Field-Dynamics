@@ -2,10 +2,7 @@
 
 **Author:** Elysha Branson  
 **Affiliation:** Independent Researcher  
-
----
-
-License: CC BY 4.0
+**License:** CC BY 4.0
 
 ---
 
