@@ -5,6 +5,10 @@
 
 ---
 
+License: CC BY 4.0
+
+---
+
 ## Overview
 
 Unified Consciousness Field Dynamics (UCFD) is a **rigorously defined, falsifiable framework** that operationally quantifies structured internal organization in physical systems. It asks whether such organization can influence system dynamics beyond what is predicted by the standard microscopic Hamiltonian.  
