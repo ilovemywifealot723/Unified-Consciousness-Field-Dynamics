@@ -9,6 +9,12 @@ The project evolved rapidly from a minimal falsifiable doorway model to a comple
 
 ---
 
+## Ontological Background
+The philosophical ontology underlying UCFD is stated explicitly in [ONTOLOGY.md](./ONTOLOGY.md).  
+The physical framework stands or falls independently by experimental falsification.
+
+---
+
 ## Abstract
 UCFD is a minimal, falsifiable extension of standard physics. It introduces a single Lorentz-scalar field, C(x), which couples exclusively to persistent low-entropy informational structure (K_s(x)), defined objectively via coarse-grained entropy density at the system’s dominant physical correlation length. The framework asks a sharply defined question: do structured internal organizations exert dynamical influence beyond standard Hamiltonian evolution? All predictions collapse cleanly if no such influence exists (ε → 0).
 
