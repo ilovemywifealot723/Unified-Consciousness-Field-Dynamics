@@ -1,4 +1,4 @@
-The Ontological Position Underlying Unified Consciousness Field Dynamics (UCFD)
+# The Ontological Position Underlying Unified Consciousness Field Dynamics (UCFD)
 
 This document presents the philosophical ontology held by the creator of the Unified Consciousness Field Dynamics (UCFD) framework.
 
