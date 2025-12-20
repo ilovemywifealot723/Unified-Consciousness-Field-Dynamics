@@ -1,5 +1,12 @@
 # Unified Consciousness Field Dynamics (UCFD): A Minimal Physical Framework for Structured Reality
 
+## Citation
+
+This work is archived on Zenodo and is citable via DOI:  
+https://doi.org/10.5281/zenodo.17994002
+
+---
+
 **Author:** Elysha Branson (Independent Researcher)
 
 ---
