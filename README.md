@@ -112,6 +112,8 @@ Candidate experimental platforms include:
 - If δΓ_UCFD = 0, then ε → 0 and the framework collapses.
 - No post-hoc parameter adjustment is permitted.
 
+Note on Experimental Sensitivity: Full validation requires long-duration, high-precision experiments on systems capable of sustaining persistent, structured informational structures. Null results from low-coherence or short-duration setups do not meaningfully falsify the framework.
+
 ---
 
 ## 8. Interpretive Consequences (Conditional)
