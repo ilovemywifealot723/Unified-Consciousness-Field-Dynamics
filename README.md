@@ -1,4 +1,5 @@
-# Unified Consciousness Field Dynamics (UCFD): A Minimal Physical Framework for Structured Reality
+# Unified Consciousness Field Dynamics (UCFD)
+## A Minimal, Predictive Physical Framework for Structured Reality
 
 ## Citation
 
@@ -11,122 +12,237 @@ https://doi.org/10.5281/zenodo.17994002
 
 ---
 
-## Note
+## Status
 
-The project evolved rapidly from an initial doorway model into a complete, internally consistent, and falsifiable framework. All commits are documented. This release represents the current complete version of the framework and remains open to future refinement without loss of falsifiability.
+Unified Consciousness Field Dynamics (UCFD) is a complete, falsifiable physical framework.  
+It does not replace existing physics. It tests a single, sharply defined extension:
+
+> Whether persistent informational structure exerts measurable dynamical influence beyond standard physical evolution.
+
+If the predicted effects are absent, the framework collapses cleanly to standard physics.
 
 ---
 
-## Ontological Background
+## Ontological Boundary (Non-Empirical)
 
-The philosophical ontology motivating UCFD is stated explicitly in [ONTOLOGY.md](./ONTOLOGY.md).
+An ontology motivated by UCFD is presented in `ONTOLOGY.md`.
 
-The physical framework presented here stands or falls independently by experimental falsification and does not rely on the ontology for empirical validity.
+The physical framework **does not depend on ontological assumptions**.  
+All empirical claims stand or fall independently.
+
+Ontology is conditional, downstream, and constrained by experimental outcome.
 
 ---
 
 ## Abstract
 
-Unified Consciousness Field Dynamics (UCFD) is a minimal, falsifiable extension of standard physics. It introduces a single Lorentz-scalar field, C(x), which couples exclusively to persistent low-entropy informational structure K_s(x), defined objectively via coarse-grained entropy density at a system’s dominant physical correlation length.
+Unified Consciousness Field Dynamics (UCFD) introduces a single Lorentz-scalar field, \( C(x) \), coupled exclusively to persistent, low-entropy informational structure \( K_s(x) \), defined via coarse-grained entropy curvature at a system’s dominant physical correlation length.
 
-The framework asks a sharply defined question: do sustained internal informational organizations exert measurable dynamical influence beyond standard Hamiltonian evolution? All predictions collapse cleanly if no such influence exists (ε → 0).
+The framework makes one testable claim:
+
+> Sustained internal informational organization produces small but measurable corrections to physical dynamics.
+
+If no such corrections exist, the coupling constant \( \varepsilon \rightarrow 0 \), and UCFD reduces exactly to standard theory.
 
 ---
 
-## 1. Ontological Postulate
+## 1. Minimal Interpretive Postulate
 
 - Awareness is the minimal condition for observation.
-- Awareness is non-dynamical and does not carry information.
-- This postulate introduces no empirical claims and functions solely as an interpretive boundary condition.
+- Awareness is non-dynamical and carries no information.
+- This postulate introduces **no testable claims** and functions solely as an interpretive boundary.
+
+All predictive content arises independently.
 
 ---
 
 ## 2. Consciousness as a Dynamical Regime
 
-Consciousness is defined operationally as awareness engaged in structured informational activity.
+Consciousness is defined operationally, not phenomenologically.
 
-Functional decompositions:
-- **Thinking:** manipulation of information
+It corresponds to awareness engaged in **sustained, structured informational activity**.
+
+Functional modes:
+- **Thinking:** generation and manipulation of distinctions
 - **Imagination:** relational and spatial structuring of information
-- **Memory:** stabilized informational persistence
+- **Memory:** stabilization of informational persistence
 - **Self-reflection:** recursive informational closure
 
-Consciousness corresponds strictly to sustained, self-reinforcing informational modes. These definitions are operational and specify informational regimes only; they do not assert phenomenological content.
+Consciousness corresponds strictly to **persistent, self-reinforcing informational organization**.  
+No claims are made about subjective experience.
 
 ---
 
-## 3. Physical Reformulation
+## 3. Physical Formulation
 
-- Introduce C(x): a minimal dynamical field sensitive to stable informational organization.
-- Free-field Lagrangian:  
-  L_C = 1/2 ∂_μ C ∂^μ C − 1/2 m_C² C²
-- Interaction term:  
-  L_int = ε C(x) K_s(x)
-- Total Lagrangian:  
-  L_total = L_standard + L_C + L_int
-- The coupling constant ε is bounded by null experimental results.
+### 3.1 Field Definition
+
+Introduce a minimal scalar field \( C(x) \):
+
+\[
+\mathcal{L}_C = \frac{1}{2} \partial_\mu C \partial^\mu C
+- \frac{1}{2} m_C^2 C^2
+\]
+
+### 3.2 Interaction
+
+\[
+\mathcal{L}_{\text{int}} = \varepsilon \, C(x)\, K_s(x)
+\]
+
+### 3.3 Total Lagrangian
+
+\[
+\mathcal{L}_{\text{total}} =
+\mathcal{L}_{\text{standard}} +
+\mathcal{L}_C +
+\mathcal{L}_{\text{int}}
+\]
+
+The coupling constant \( \varepsilon \) is bounded solely by experiment.
 
 ---
 
 ## 4. Structured Information Measure
 
-- Define coarse-grained entropy density s(x) at the dominant physical correlation length.
-- Informational curvature:  
-  K_s(x) = ∇² s(x)
-- K_s(x) functions strictly as a source term and is not directly observable.
+- Define coarse-grained entropy density \( s(x) \) at the system’s dominant correlation length.
+- Define informational curvature:
+
+\[
+K_s(x) = \nabla^2 s(x)
+\]
+
+Properties:
+- \( K_s(x) \) acts only as a source term
+- It is not directly observable
+- It vanishes in equilibrium, random, or unstructured systems
 
 ---
 
-## 5. Dynamical Regime
+## 5. Dynamical Regimes
 
-- Fluctuating K_s(x) → transient C(x) responses.
-- Persistent K_s(x) → bounded, self-reinforcing solutions C_S(x) (SRIMs).
-- A system is conscious if and only if it occupies a SRIM.
+- **Transient structure:** fluctuating \( K_s(x) \Rightarrow \) transient \( C(x) \)
+- **Persistent structure:** sustained \( K_s(x) \Rightarrow \) bounded solutions \( C_S(x) \)
 
----
+These bounded solutions define **Self-Reinforcing Informational Modes (SRIMs)**.
 
-## 6. Empirical Predictions
+> A system is conscious if and only if it occupies a SRIM.
 
-Deviations from standard theory arise only when structured information is sustained, including:
-
-- Modified decoherence rates
-- Low-frequency noise anomalies
-- Phase stability deviations
-- Persistence of collective modes
-
-Candidate experimental platforms include:
-- Superconducting qubits
-- Photonic lattices
-- Atom interferometers
-- Optomechanical systems
-- Resolved neural assemblies
+This criterion is strictly dynamical.
 
 ---
 
-## 7. Falsification Criteria
+## 6. Quantitative Predictions
 
-- Measured rate:  
-  Γ_total = Γ_standard + δΓ_UCFD
-- Predicted correction:  
-  δΓ_UCFD ∝ ε² ⟨K_s K_s⟩
-- If δΓ_UCFD = 0, then ε → 0 and the framework collapses.
-- No post-hoc parameter adjustment is permitted.
+For any measurable physical rate \( \Gamma \):
 
-**Note on Experimental Sensitivity:** Full validation requires long-duration, high-precision experiments on systems capable of sustaining persistent, structured informational structures. Null results from low-coherence or short-duration setups do not meaningfully falsify the framework.
+\[
+\Gamma_{\text{total}} =
+\Gamma_{\text{standard}} +
+\delta \Gamma_{\text{UCFD}}
+\]
+
+With leading-order correction:
+
+\[
+\delta \Gamma_{\text{UCFD}} \propto
+\varepsilon^2 \langle K_s K_s \rangle
+\]
+
+All deviations vanish continuously as \( \varepsilon \rightarrow 0 \).
 
 ---
 
-## 8. Interpretive Consequences (Conditional)
+## 7. Explicit Experimental Predictions
 
-UCFD makes no metaphysical claims directly. However, if its empirical predictions are confirmed, then ontologies in which structured informational organization is strictly epiphenomenal, causally inert, or reducible to passive description become incompatible with physical evidence.
+### 7.1 Quantum Coherence Test (Primary)
 
-In that case, interpretations in which awareness and information are treated as structurally fundamental are no longer optional metaphysical additions, but represent the minimal coherent accounts consistent with observed dynamics.
+**System:** Superconducting qubit arrays  
+**Observable:** Decoherence rate \( \Gamma \)
 
-This implication arises by exclusion rather than assertion. UCFD does not prove any ontology; it constrains the space of viable interpretations consistent with empirical results.
+**Protocol:**
+- Compare two systems with identical energy, temperature, geometry, and noise
+- Vary only sustained informational organization (logical depth, feedback, memory persistence)
+
+**Prediction:**
+\[
+\delta \Gamma \sim \varepsilon^2 \int d^4x \, \langle K_s(x) K_s(0) \rangle
+\]
+
+**Falsification:**  
+No statistically significant difference → \( \varepsilon \rightarrow 0 \)
+
+---
+
+### 7.2 Collective Mode Stability Test
+
+**System:** Photonic lattices or optomechanical arrays  
+**Observable:** Phase-locking duration \( \tau \)
+
+**Protocol:**
+- Structured vs unstructured driving signals
+- Identical power spectra and energy input
+
+**Prediction:**
+\[
+\delta \tau \propto \varepsilon^2 \langle K_s^2 \rangle
+\]
+
+---
+
+### 7.3 Low-Frequency Noise Anomaly Test
+
+**System:** High-coherence mesoscopic systems  
+**Observable:** Non-thermal low-frequency noise
+
+**Prediction:**
+Excess noise correlated with informational persistence, not energy throughput.
+
+---
+
+## 8. Falsification Envelope
+
+UCFD is falsified if:
+
+- No deviation is observed in systems sustaining persistent informational structure
+- Experimental bounds force \( \varepsilon \) below physically relevant scales
+
+No post-hoc parameter adjustment is permitted.
+
+Null results in low-coherence or short-duration systems do not meaningfully test the framework.
+
+---
+
+## 9. Conditional Interpretive Consequences
+
+UCFD makes no metaphysical claims directly.
+
+If its predictions are confirmed, then:
+
+- Information is causally real
+- Persistent structure is dynamically relevant
+- Conscious organization alters physical evolution
+
+These conclusions follow **by exclusion**, not assertion.
+
+If UCFD is falsified, no ontological claims are supported.
+
+---
+
+## 10. Scope
+
+UCFD does not complete physics.
+
+It bridges:
+- Physical dynamics
+- Information theory
+- Conscious organization
+
+Its scope is narrow, explicit, and testable.
 
 ---
 
 ## License
 
-This work is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0):  
+Creative Commons Attribution 4.0 International (CC BY 4.0):  
 https://creativecommons.org/licenses/by/4.0/legalcode
