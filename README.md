@@ -1,260 +1,171 @@
 # Unified Consciousness Field Dynamics (UCFD)
-## A Minimal, Predictive Physical Framework for Structured Reality
+
+Author: Elysha Branson  
+Status: Phenomenological extension / test model  
+License: CC BY 4.0
 
 ---
 
-## Citation
+## Summary
 
-This work is archived on Zenodo and is citable via DOI:  
-https://doi.org/10.5281/zenodo.17994002  
+UCFD introduces a single additional scalar field coupled to persistent structured information.  
+The model predicts small, perturbative deviations from standard dynamics in systems that maintain long-lived informational structure.
 
-**Author:** Elysha Branson (Independent Researcher)  
-
----
-
-## Status
-
-UCFD is a **complete, falsifiable physical framework**.  
-It does not replace existing physics, but extends it by testing a single sharply defined hypothesis:  
-
-> **Persistent informational structure exerts measurable dynamical influence beyond standard physical evolution.**  
-
-If predicted effects are absent, UCFD reduces cleanly to standard physics.  
+If no such deviations exist, the coupling goes to zero and the model reduces exactly to standard physics.
 
 ---
 
-## Ontological Boundary (Non-Empirical)
+## Scope
 
-An ontology motivated by UCFD is presented in `ONTOLOGY.md`.  
+This is not a complete theory of consciousness.  
+It is not a replacement for quantum mechanics, relativity, or field theory.
 
-- Awareness is defined as the **minimal condition for observation**.  
-- Awareness is **non-dynamical** and carries no information.  
-- Consciousness is **persistent, self-reinforcing informational organization**.  
+It is a minimal dynamical extension intended to be tested or ruled out.
 
-The physical framework **does not depend on ontological assumptions**. Empirical claims stand or fall independently. Ontology is conditional, downstream, and constrained by experimental outcome.  
-
----
-
-## Abstract
-
-UCFD introduces a **Lorentz-scalar field \( C(x) \)** coupled to **persistent, low-entropy informational structure \( K_s(x) \)**.  
-
-- \(K_s(x)\) is defined via **coarse-grained informational curvature** at the dominant physical correlation length of the system.  
-- The framework predicts **small but measurable corrections to physical dynamics** in systems sustaining persistent structure.  
-- If no such corrections exist, the coupling constant \( \varepsilon \to 0 \), and UCFD reduces exactly to standard theory.  
+An ontology motivated by the framework exists separately and is not required for any physical claim made here.
 
 ---
 
-## 1. Minimal Interpretive Postulate
+## Core Assumption (Operational)
 
-- Awareness is **non-dynamical** and **structure-independent**.  
-- Functional modes of consciousness (thinking, memory, imagination, self-reflection) are **defined operationally**, not phenomenologically.  
-- This postulate introduces **no testable claims**. Predictive content arises entirely from the physical framework.  
+Some physical systems maintain structured information that is:
+- persistent
+- bounded
+- resistant to noise
+- internally reinforcing
 
----
-
-## 2. Consciousness as a Dynamical Regime
-
-Consciousness is operationally defined as **persistent, structured informational activity**.  
-
-- **Thinking:** generation and manipulation of distinctions  
-- **Imagination:** relational/spatial structuring of information  
-- **Memory:** stabilization of informational persistence  
-- **Self-reflection:** recursive informational closure  
-
-A system is conscious **if and only if** it occupies a **Self-Reinforcing Informational Mode (SRIM)**, i.e., a bounded, persistent solution of the coupled field dynamics.  
+No phenomenological assumptions are used.  
+No subjective quantities appear in the equations.
 
 ---
 
-## 3. Physical Formulation
+## Field Content
 
-### 3.1 Scalar Field \( C(x) \)
+Introduce a real scalar field \( C(x) \):
 
 \[
 \mathcal{L}_C = \frac{1}{2} \partial_\mu C \partial^\mu C - \frac{1}{2} m_C^2 C^2
 \]
 
-- Lorentz-invariant  
-- Canonical mass dimension 1  
+The field has no special symmetries and no direct coupling to standard matter fields.
 
-### 3.2 Operator-Level Coupling to Structured Information
+---
 
-Define \( K_s(x) \) in **physically measurable terms**:
+## Structured Information Operator
+
+Define a measurable operator \( K_s(x) \) representing the spatial curvature of persistent informational density:
 
 \[
 K_s(x) = \nabla^2 \langle \hat{\rho}_{\text{info}}(x) \rangle
 \]
 
-Where \( \hat{\rho}_{\text{info}}(x) \) is the **density operator representing coarse-grained persistent structure**:
+The definition is system-dependent but operational:
 
-- For qubit arrays: \( \hat{\rho}_{\text{info}}(x) = \sum_i w_i \hat{\sigma}_z^{(i)} \)  
-- For photonic lattices: \( \hat{\rho}_{\text{info}}(x) = \hat{a}^\dagger(x)\hat{a}(x) \)  
-- For classical mesoscopic systems: coarse-grained energy density operator  
+- Qubit systems: coarse-grained stabilizer density
+- Photonic systems: mode occupation persistence
+- Classical systems: entropy or energy organization over time
 
-The interaction Lagrangian is:
-
-\[
-\mathcal{L}_{\text{int}} = \varepsilon C(x) K_s(x)
-\]
-
-The total Lagrangian becomes:
-
-\[
-\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{standard}} + \mathcal{L}_C + \mathcal{L}_{\text{int}}
-\]
+Only persistence matters. Transient structure is ignored.
 
 ---
 
-## 4. Equations of Motion
-
-Euler–Lagrange equations give:
+## Interaction Term
 
 \[
-\partial_\mu \partial^\mu C(x) + m_C^2 C(x) = - \varepsilon K_s(x)
+\mathcal{L}_{\text{int}} = \varepsilon \, C(x) \, K_s(x)
 \]
 
-For the system operators:
+Total Lagrangian:
 
 \[
-\frac{d}{dt} \hat{\rho}_{\text{system}} = -i [ \hat{H}_{\text{standard}} + \varepsilon C(x) \hat{\rho}_{\text{info}}, \hat{\rho}_{\text{system}} ]
+\mathcal{L} = \mathcal{L}_{\text{standard}} + \mathcal{L}_C + \mathcal{L}_{\text{int}}
 \]
 
-This yields a **perturbative correction to dynamics** proportional to \( \varepsilon \) and the correlation function \( \langle K_s(x) K_s(x') \rangle \).
+\( \varepsilon \) is treated perturbatively.
 
 ---
 
-## 5. Leading-Order Observable Corrections
+## Equations of Motion
+
+For the scalar field:
+
+\[
+\partial_\mu \partial^\mu C + m_C^2 C = -\varepsilon K_s(x)
+\]
+
+For the system density matrix:
+
+\[
+\frac{d}{dt} \hat{\rho}
+= -i \left[ \hat{H}_{\text{standard}} + \varepsilon C(x)\hat{\rho}_{\text{info}}, \hat{\rho} \right]
+\]
+
+No modification occurs if \( K_s(x) \approx 0 \).
+
+---
+
+## Observable Effects
 
 For any measurable rate \( \Gamma \):
 
 \[
-\Gamma_{\text{total}} = \Gamma_{\text{standard}} + \delta \Gamma_{\text{UCFD}}
+\Gamma = \Gamma_0 + \delta \Gamma
 \]
 
-Leading-order correction (second-order perturbation theory):
+Leading-order correction:
 
 \[
-\delta \Gamma_{\text{UCFD}} \sim \varepsilon^2 \int d^4x \, d^4x' \, \langle K_s(x) K_s(x') \rangle G(x-x')
+\delta \Gamma \sim \varepsilon^2
+\int d^4x \, d^4x'
+\langle K_s(x) K_s(x') \rangle
+G(x - x')
 \]
 
-- \( G(x-x') \) is the Green’s function for the scalar field \( C(x) \)  
-- Deviations vanish continuously as \( \varepsilon \to 0 \)  
+where \( G \) is the Green’s function of \( C(x) \).
 
 ---
 
-## 6. Explicit Experimental Predictions
+## Experimental Targets
 
-### 6.1 Quantum Coherence Test
+1. **Superconducting qubit arrays**  
+   Observable: decoherence rate  
+   Expectation: deviation correlated with informational persistence
 
-**System:** Superconducting qubit arrays  
-**Observable:** Decoherence rate \( \Gamma \)  
+2. **Photonic or optomechanical lattices**  
+   Observable: phase stability duration  
+   Expectation: scaling with \( \langle K_s^2 \rangle \)
 
-**Prediction:**
+3. **Mesoscopic coherent systems**  
+   Observable: low-frequency non-thermal noise  
+   Expectation: structure-dependent excess noise
 
-\[
-\delta \Gamma \sim \varepsilon^2 \int d^4x \, \langle K_s(x) K_s(0) \rangle
-\]
-
-**Protocol:**  
-- Compare two identical systems  
-- Vary only **persistent informational structure** (logical depth, feedback, memory persistence)  
-
-**Falsification:**  
-No statistically significant difference → \( \varepsilon \to 0 \)  
+Low-coherence systems provide control baselines.
 
 ---
 
-### 6.2 Collective Mode Stability
+## Falsification
 
-**System:** Photonic lattices / optomechanical arrays  
-**Observable:** Phase-locking duration \( \tau \)  
+The model is ruled out if:
 
-**Prediction:**
+- No deviations are observed in high-structure systems, and
+- Experimental bounds force \( \varepsilon \) below relevance
 
-\[
-\delta \tau \propto \varepsilon^2 \langle K_s^2 \rangle
-\]
-
-**Protocol:**  
-- Structured vs unstructured driving signals  
-- Identical energy, temperature, geometry  
+In that limit, UCFD collapses to standard physics with no residue.
 
 ---
 
-### 6.3 Low-Frequency Noise Anomaly
+## Notes
 
-**System:** High-coherence mesoscopic systems  
-**Observable:** Non-thermal low-frequency noise  
+- No claim is made about wavefunction collapse.
+- No claim is made about subjective experience entering dynamics.
+- No claim depends on interpretation.
 
-**Prediction:**  
-Excess noise correlates with informational persistence, **not energy throughput**.  
-
----
-
-## 7. Falsification Envelope
-
-UCFD is falsified if:
-
-1. No deviations observed in systems sustaining persistent informational structure  
-2. Experimental bounds force \( \varepsilon \) below physically relevant scales  
-
-Null results in low-coherence or short-duration systems **do not meaningfully test the framework**.
+Ontology, interpretation, and phenomenology are explicitly downstream and optional.
 
 ---
 
-## 8. Conditional Interpretive Consequences
+## Files
 
-If predictions are confirmed:
-
-- Persistent informational structure is **dynamically real**  
-- Conscious organization **alters physical evolution**  
-- Information is a **causal agent**, not just a descriptor  
-
-If falsified: no ontological claims are supported.
-
----
-
-## 9. Scope
-
-- UCFD does **not complete physics**, but bridges:  
-  - Physical dynamics  
-  - Information theory  
-  - Conscious organization  
-
-- Its scope is narrow, explicit, and testable.
-
----
-
-## 10. Supplementary Table: Experimental Mapping
-
-| **System Type**                  | **\(K_s(x)\) Operator Definition**                                | **Observable**                  | **Predicted Correction**                                   | **Notes / Protocol** |
-|---------------------------------|------------------------------------------------------------------|--------------------------------|-----------------------------------------------------------|--------------------|
-| Superconducting Qubit Array      | \(K_s(x) = \nabla^2 \sum_i w_i \langle \hat{\sigma}_z^{(i)} \rangle\) | Decoherence rate \(\Gamma\)    | \(\delta \Gamma \sim \varepsilon^2 \int d^4x \langle K_s(x) K_s(0)\rangle\) | Compare systems with identical energy, temperature, geometry; vary logical depth / memory persistence |
-| Photonic Lattice / Optomechanical Array | \(K_s(x) = \nabla^2 \langle \hat{a}^\dagger(x) \hat{a}(x) \rangle\) | Phase-locking duration \(\tau\) | \(\delta \tau \propto \varepsilon^2 \langle K_s^2 \rangle\) | Structured vs unstructured driving signals, identical energy input |
-| Mesoscopic High-Coherence Systems | \(K_s(x) = \nabla^2 \langle \hat{\rho}_{\text{coarse}}(x) \rangle\) | Low-frequency non-thermal noise | Excess correlated noise ∝ \(\varepsilon^2 \langle K_s K_s \rangle\) | Measure spectral density; control for thermal & energy contributions |
-| Classical Complex Systems (optional) | \(K_s(x) = \nabla^2 s(x)\) (entropy curvature) | System relaxation rates / fluctuations | δRate ∝ ε² ⟨K_s K_s⟩ | Only for macroscopic tests; less precise but conceptually validates scaling |
-
----
-
-## 11. Supplementary Figure Concept
-
-**Figure 1: Coupled Field Dynamics**
-
-1. **Diagram layout:**  
-
-- Left: Persistent structured system → defines \(K_s(x)\)  
-- Middle: Coupling via ε → C(x) scalar field  
-- Right: Observable system response (decoherence, phase stability, noise spectrum)  
-
-2. **Annotations:**  
-
-- Green arrows: influence from persistent structure to field  
-- Red arrows: field back-action on standard physical observables  
-- Dashed line: vanishing effect as ε → 0  
-
----
-
-## 12. License
-
-Creative Commons Attribution 4.0 International (CC BY 4.0)  
-https://creativecommons.org/licenses/by/4.0/legalcode
+- `README.md` — physical framework (this document)
+- `ONTOLOGY.md` — optional interpretive model
+- `NOTES.md` — derivations and extensions (in progress)
