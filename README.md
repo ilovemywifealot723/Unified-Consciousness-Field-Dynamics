@@ -168,4 +168,3 @@ Ontology, interpretation, and phenomenology are explicitly downstream and option
 
 - `README.md` — physical framework (this document)
 - `ONTOLOGY.md` — optional interpretive model
-- `NOTES.md` — derivations and extensions (in progress)
